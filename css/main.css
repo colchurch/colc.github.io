@@ -7,3 +7,13 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.d-md-block {
+  background-color: rgba(224,30,39,0.6)
+}
+.masonry-column {
+  padding: 0 1px;
+}
+
+.masonry-grid > div .thumbnail {
+  margin: 5px 1px;
+}
