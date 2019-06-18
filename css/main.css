@@ -1,5 +1,8 @@
+body {
+  padding-top: 3.5rem;
+}
 .carousel-item {
-  height: 100vh;
+  height: calc(100vh - 3.5rem);
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -8,5 +11,8 @@
   background-size: cover;
 }
 .d-md-block {
-  background-color: rgba(224,30,39,0.6)
+  background-color: rgba(224,30,39,0.6);
+}
+.navbar {
+  background-color: rgb(251, 234, 52);
 }
