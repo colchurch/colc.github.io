@@ -16,3 +16,20 @@ body {
 .navbar {
   background-color: rgb(251, 234, 52);
 }
+.navbar {
+  transition: top 0.5s ease;
+}
+.navbar-hide {
+  top: -56px;
+}
+.parallax { 
+  background-image: url("/img/pic1.jpg"); 
+  min-height: 500px;  
+  height: 50vh;
+  background-attachment: fixed; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  padding-top: 3.5rem;
+  margin-top: 3.5rem;
+}
