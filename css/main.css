@@ -47,3 +47,55 @@
   background-size: cover;
   background-position: center;
 }
+/* Timeline v1 */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #eee;
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  width: 4px;
+  height: 100%;
+  z-index: 400;
+  border-radius: 1rem;
+}
+li.timeline-item {
+  margin: 20px 0;
+}
+.timeline-arrow {
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid #f8f9fa;
+  border-bottom: 0.5rem solid transparent;
+  display: block;
+  position: absolute;
+  left: 2rem;
+}
+li.timeline-item::before {
+  content: ' ';
+  background: #ddd;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  z-index: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+li.timeline-item.highlight {
+  color: #fff;
+  background-color: #00b0bd!important;
+}
+li.timeline-item.highlight .timeline-arrow {
+  border-right: 0.5rem solid #00b0bd!important;
+}
+li.timeline-item.highlight::before {
+  background: #00b0bd!important;
+  box-shadow: 0 0 5px rgba(0, 176, 189, 0.9);
+}
