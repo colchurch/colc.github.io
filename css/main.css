@@ -331,7 +331,8 @@
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-}@media (max-width:480px) {
+}
+/* @media (max-width:480px) {
   .timeline {
   padding: 0;
 }
@@ -354,7 +355,8 @@
   left: 50%!important;
   margin-left: -6px;
 }
-}.wrapkit-content-rtl .timeline-avatar {
+} */
+.wrapkit-content-rtl .timeline-avatar {
   margin-right: 0;
   margin-left: 10px;
 }
