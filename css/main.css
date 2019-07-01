@@ -216,8 +216,7 @@
     border-width: 10px 10px 10px 0;
     border-color: transparent #f8f9fa transparent transparent;
   }
-
-  .timeline-item.block::before {
+  .timeline-item.block::before, .timeline-left.highlight::before {
     border: medium solid #00b0bd;
     border-width: 10px 10px 10px 0;
     border-color: transparent #00b0bd transparent transparent;
