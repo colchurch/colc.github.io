@@ -18,35 +18,40 @@
 .colc-navbar {
   background-color: rgba(251, 234, 52, 0.9);
 }
-.MainContainer {
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-.ParallaxContainer {
-  display: flex;
-  flex: 1 0 auto;
-  position: relative;
-  height: 100vh;
-  transform: translateZ(-1px) scale(2);
-  z-index: -1;
-}
-
-.ContentContainer {
-  display: block;
-  position: relative;
-  background-color: white;
-  z-index: 1;
-}
-
 .img1 {
   background-image: url('../img/pic1.jpg');
+}
+
+/** parallax **/
+.parallax {
+  position: relative;
+  padding: 180px 0px;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
 
 /* Timeline */
