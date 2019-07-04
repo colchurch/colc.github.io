@@ -21,6 +21,10 @@
 .img1 {
   background-image: url('../img/pic1.jpg');
 }
+.bg-church {
+  background-image: url('../img/bg-church4.png');
+  height: 100vh;
+}
 
 /** parallax **/
 .parallax {
@@ -32,11 +36,12 @@
   background-size: cover;
 }
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 768px) {
   .parallax {
     background-attachment: scroll;
   }
 }
+
 .caption {
   position: absolute;
   left: 0;
@@ -47,7 +52,7 @@
 }
 
 .caption span.border {
-  background-color: #111;
+  background-color: rgba(224,30,39,0.6);
   color: #fff;
   padding: 18px;
   font-size: 25px;
