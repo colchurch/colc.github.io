@@ -22,7 +22,7 @@
   background-image: url('../img/pic1.jpg');
 }
 .bg-church {
-  background-image: url('../img/bg-church4.png');
+  background-image: url('../img/bg-church.jpg');
   height: 100vh;
 }
 
@@ -50,13 +50,17 @@
   text-align: center;
   color: #000;
 }
-
-.caption span.border {
-  background-color: rgba(224,30,39,0.6);
-  color: #fff;
+.caption span {
+  background-color: rgba(17, 17, 17, 0.6);
+  color: rgba(255, 255, 255, 0.8);
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  border: 0;
+}
+
+.border {
+  border-width: 0;
 }
 
 /* Timeline */
