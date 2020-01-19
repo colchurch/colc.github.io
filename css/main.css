@@ -12,11 +12,8 @@
   background-size: cover;
   transition: opacity 2s linear;
 }
-.d-md-block {
-  background-color: rgba(224,30,39,0.6);
-}
 .colc-navbar {
-  background-color: rgba(251, 234, 52, 0.9);
+  background-color: rgba(244,208,63, 0.9);
 }
 .img1 {
   background-image: url('../img/pic1.jpg');
