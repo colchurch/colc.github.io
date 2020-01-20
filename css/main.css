@@ -17,6 +17,7 @@
 }
 .img1 {
   background-image: url('../img/pic1.jpg');
+  height: 100vh;
 }
 .bg-church {
   background-image: url('../img/bg-church.jpg');
@@ -26,7 +27,6 @@
 /** parallax **/
 .parallax {
   position: relative;
-  padding: 180px 0px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 .caption span {
   background-color: rgba(17, 17, 17, 0.6);
